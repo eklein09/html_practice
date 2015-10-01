@@ -11,10 +11,36 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/height#Syntax
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-align#Syntax
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow#Syntax
 https://developer.mozilla.org/en-US/docs/Web/CSS/width#Syntax
-http://www.colorzilla.com/gradient-editor/
+	
 
 Note that I've included the background image for the page in this folder, "grey.png"
 
 Write your CSS rules below.
 
 */
+
+* {
+	background-image: url(grey.png);
+}
+
+.board {
+	width: 350px;
+	margin: 1em auto 2em; 	
+	border: medium solid darkcyan;
+}
+
+.square {
+	font-size: 22pt;
+	text-align: center;
+	color: darkorange;
+	background-image: url(grey.png);
+	background-color: white;
+	text-shadow: darkslategrey 1px 1px;	
+}
+
+.dark_square {
+	/*color: darksalmon;*/
+	background: linear-gradient(to bottom right, #019797, #1C7575);
+	/*background-color: darkcyan;
+	background-image: none;*/
+}

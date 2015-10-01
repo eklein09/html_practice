@@ -2,8 +2,31 @@
 * {
   box-sizing: border-box;
 
-  border: thin red solid;
+  /*border: thin red solid;*/
 }
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+.centeredcell {
+	text-align: center;
+	margin: 0px auto;
+		border: 1px lightblue solid;
+	background-color: lightblue;
+	border-radius:40px;
+}
+
+.tightcell {
+	padding: -10px -10px;
+
+}
+
+.button {
+
+	/*width:300px;*/
+	/*margin:0 auto;*/
+	padding: 0px 30%;
+	text-align:center;
+	color: white;
+	text-decoration: none;
+}

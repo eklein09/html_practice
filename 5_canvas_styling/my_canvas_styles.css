@@ -1,0 +1,34 @@
+.canvas {
+	font-family: 'Roboto', sans-serif;
+}
+
+.canvas_section {
+	border: thin black solid;
+	padding:5pt;
+}
+
+.sublist {
+	font-style:italic;
+}
+
+.wideinput {
+	width:250px;
+}
+
+.widerinput {
+	width:300px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+ol {
+	line-height: 1pt;
+	padding-left: 0
+}
+
+h3 {
+	text-transform: uppercase;
+}
